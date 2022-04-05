@@ -1,0 +1,172 @@
+#header{
+    
+    height:60px;
+    width: 100%;
+    border: 2px solid red;
+    background-color:rgb(248, 83, 83)
+    
+}
+#icon{
+    height:35px;
+    width:30%;
+    color: orange;
+    margin-left:2%;
+    margin-top: -1%;
+    float: left;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height:40px;
+    width:30px;
+    margin-top:10%;
+    margin-right: 10px;
+}
+
+
+#middlediv{
+    height:1400px;
+    width: 100%;
+}
+#filterdiv{
+    height:500px;
+    width:100%;
+    border: 2px solid yellow;
+    background-image:url(image/wallpaper\ of\ zomato.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 500px;
+}
+#logo{
+    height:100px;
+    width:100px;
+    background-color: rgb(240 229 229/ 20%);
+    border-radius:60% ;
+    position: absolute;
+    margin-left: 43%;
+    margin-top:2%;
+    
+}
+#logo>span{
+    margin-left: 27%;
+    margin-top:27%;
+    position: absolute;
+    font-size:40px;
+    color:orange
+}
+#heading{
+    margin-left: 28%;
+    margin-top:20%;
+    position: absolute;
+}
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 25%;
+    margin-top:26%;
+    position: absolute;
+    
+}
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+.restdiv{
+    width:55%;
+}
+
+#section3{
+    height:650px;
+    width:100%;
+    border:2px solid green;
+    background-color: rgb(238, 161, 20);
+}
+#quicksearch{
+    height:600px;
+    width:80%;
+    margin-left: 10%;
+    margin-top:10px;
+}
+#quickheading{
+    font-size: 30px;
+    color:#e28b62;
+    display:block;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+#quicksubheading{
+    font-size:20px;
+    color: gray;
+    display:block;
+    line-height:3;
+    margin-left: 2%;
+}
+.tilecontainer{
+    height:180px;
+    width:30%;
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    animation:dance 10s infinite;
+}
+@keyframes dance{
+    0%{transform:rotate(-5deg)}
+    25%{transform:rotate(0deg)}
+    50%{transform:rotate(5deg)}
+    75%{transform:rotate(0deg)}
+    100%{transform:rotate(-5deg)}
+
+}
+.tilecomponent1{
+    width:50%;
+    height:180px;
+    background-color: red;
+    float:left;
+}
+.tilecomponent1 > img{
+    height:180px;
+    width:100%
+}
+.tilecomponent2{
+    width:50%;
+    height:180px;
+    background-color: rgb(211, 211, 241);
+    float: left;
+}
+.componentheading{
+    font-size: 25px;
+    color: orange;
+    margin-top:12%;
+    margin-left:10%
+}
+.componentsubheading{
+    font-size: 15px;
+    color:gray;
+    margin-left: 4%;
+}
+
+#footer{
+    height:120px;
+    width:100%;
+    border: 2px solid red;
+    background-color: rgba(255, 68, 0, 0.836);
+}
+#foottext{
+    text-align:center;
+    font-size:bold;
+    color:white;
+}
+.footdiv{
+    height:60px;
+    width:30%;
+    float:left;
+    border-right: 2px solid black;
+    margin-left:2%
+}
+.footdivnoborder{
+    border:none
+}
