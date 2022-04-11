@@ -8,7 +8,6 @@
 #main{
     height: 300px;
     width: 100%;
-    border: 2px solid red;
     background-color: rgb(228, 159, 68);
 }
 .tilecontainer1{
@@ -43,7 +42,6 @@
 #skillcontainer{
     height: 200px;
     width: 100%;
-    border: 2px solid rgb(54, 19, 19);
     background-color:rgb(221, 221, 248)
 }
 .skillheading{
@@ -61,9 +59,8 @@
 
 
 #projectdiv{
-    height:300px;
+    height:350px;
     width: 100%;
-    border: 2px solid blue;
     background-color: rgb(245, 147, 147);
 }
 #projectheading{
@@ -75,7 +72,6 @@
 .mainproject{
     height:200px;
     width:30%;
-    border: 2px solid rgb(102, 102, 241);
     float:left;
     margin-left:13%;
     margin-top: 2%;
@@ -83,6 +79,14 @@
 .mainproject > img {
     height:200px;
     width:100%;
+}
+.button{
+    margin-top:4%;
+    margin-left:40%;
+    font-size:20px;
+    background-color: rgb(98, 245, 98);
+    font-family: 'Great Vibes',sans-serif;
+
 }
 .mainproject > a > img {
     height:200px;
@@ -92,7 +96,7 @@
 #locationdiv{
     height: 300px;
     width: 100%;
-    border: 2px solid hotpink;
+    
 }
 #locationdiv > p{
     text-align: center;
